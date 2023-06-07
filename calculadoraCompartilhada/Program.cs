@@ -54,6 +54,7 @@
                 switch (opcao)
                 {
                     case "1": operacao = "Adição"; break;
+
                     case "3": operacao = "Multiplicação"; break;
 
                    
@@ -90,6 +91,7 @@
                 switch (opcao)
                 {
                     case "1": resultado = primeiroNumero + segundoNumero; break;
+
                     case "3": resultado = primeiroNumero * segundoNumero; break;
 
 

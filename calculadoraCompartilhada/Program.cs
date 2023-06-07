@@ -36,7 +36,7 @@
                 if (opcao.Equals("s", StringComparison.OrdinalIgnoreCase))
                     break;
 
-                if (opcao != "1" && opcao != "5")
+                if (opcao != "1" && opcao !="3" && opcao != "5")
                 {
                     Console.WriteLine("Você precisa digitar uma opção válida!");
                     Console.ReadLine();
@@ -54,6 +54,7 @@
                 switch (opcao)
                 {
                     case "1": operacao = "Adição"; break;
+                    case "3": operacao = "Multiplicação"; break;
 
                    
 
@@ -89,6 +90,7 @@
                 switch (opcao)
                 {
                     case "1": resultado = primeiroNumero + segundoNumero; break;
+                    case "3": resultado = primeiroNumero * segundoNumero; break;
 
 
                     default:
@@ -110,7 +112,7 @@
                 {
                     case "1": simbolo = "+"; break;
 
-                    
+                    case "3": simbolo = "*"; break;
 
                     default:
                         break;

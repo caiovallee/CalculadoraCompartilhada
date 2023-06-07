@@ -56,6 +56,7 @@
                     case "1": operacao = "Adição"; break;
                     case "2": operacao = "Subtracao"; break;
                     case "3": operacao = "Multiplicação"; break;                   
+                    case "4": operacao = "Divisão"; break;
                    
 
                     case "5":
@@ -92,6 +93,7 @@
                     case "1": resultado = primeiroNumero + segundoNumero; break;
                     case "2": resultado = primeiroNumero - segundoNumero; break;
                     case "3": resultado = primeiroNumero * segundoNumero; break;
+                    case "4": resultado = primeiroNumero / segundoNumero; break;
 
                     default:
                         break;
@@ -111,6 +113,8 @@
                     case "1": simbolo = "+"; break;
                     case "2": simbolo = "-"; break;
                     case "3": simbolo = "*"; break;
+                    case "4": simbolo = "/"; break;
+
 
                     default:
                         break;

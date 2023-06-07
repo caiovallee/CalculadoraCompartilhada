@@ -54,9 +54,8 @@
                 switch (opcao)
                 {
                     case "1": operacao = "Adição"; break;
-                    
                     case "2": operacao = "Subtracao"; break;
-
+                    case "3": operacao = "Multiplicação"; break;                   
                    
 
                     case "5":
@@ -91,15 +90,13 @@
                 switch (opcao)
                 {
                     case "1": resultado = primeiroNumero + segundoNumero; break;
-
                     case "2": resultado = primeiroNumero - segundoNumero; break;
+                    case "3": resultado = primeiroNumero * segundoNumero; break;
 
                     default:
                         break;
                 }
-                
-
-                
+                               
                 Console.Clear();
 
                 Console.WriteLine("Calculadora Tabajara 1.0\n");
@@ -112,9 +109,8 @@
                 switch (opcao)
                 {
                     case "1": simbolo = "+"; break;
-
                     case "2": simbolo = "-"; break;
-
+                    case "3": simbolo = "*"; break;
 
                     default:
                         break;
